@@ -10,6 +10,7 @@ import Page from './page.component';
 const meta: Meta<Page> = {
   title: 'Example/Page',
   component: Page,
+  tags: ['autodocs', 'feature'],
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout
     layout: 'fullscreen',
